@@ -1,0 +1,21 @@
+{
+    "port": 4000,
+    "MONGODB_URL": "mongodb://anil:anil1234@ds335275.mlab.com:35275/react-database",
+    "logging": {
+        "appenders": {
+            "logger-file": {
+                "type": "file",
+                "filename": "logger.log",
+                "maxLogSize": 2000000
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "logger-file"
+                ],
+                "level": "trace"
+            }
+        }
+    }
+}

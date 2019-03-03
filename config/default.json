@@ -1,0 +1,19 @@
+{
+    "port": 9000,
+    "MONGODB_URL": "mongodb://localhost:27017/react-database",
+    "logging": {
+        "appenders": {
+            "default": {
+                "type": "console"
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "default"
+                ],
+                "level": "debug"
+            }
+        }
+    }
+}
